@@ -17,6 +17,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	$logo .= presscore_get_the_main_logo();
 
+	var_dump($logo);
+
 	// Do not display mobile logo on mixed headers.
 	if ( ! presscore_header_layout_is_mixed() ) {
 		$logo .= presscore_get_the_mobile_logo();
