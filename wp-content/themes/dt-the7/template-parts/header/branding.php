@@ -15,9 +15,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<?php
 	$logo = '';
 
-	$logo .= presscore_get_the_main_logo();
+//	$logo .= presscore_get_the_main_logo();
 
-	var_dump($logo);
+	$logo = '<img class=" preload-me" src="http://pureconferences.pl/webinar-domdata/wp-content/uploads/2020/12/aaf.png" srcset="http://pureconferences.pl/webinar-domdata/wp-content/uploads/2020/12/aaf.png 350w, http://pureconferences.pl/webinar-domdata/wp-content/uploads/2020/12/aaf.png 350w" width="350" height="47" sizes="350px" alt="Domdata Webinar">';
 
 	// Do not display mobile logo on mixed headers.
 	if ( ! presscore_header_layout_is_mixed() ) {
