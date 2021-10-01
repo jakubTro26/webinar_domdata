@@ -1,0 +1,381 @@
+0000.079 (0) Opened log file at time: Tue, 28 Sep 2021 11:01:16 +0000 on https://www.goldenore.com/rtdwebinar2
+0000.083 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.61 WP: 5.8.1 PHP: 7.4.19 (uwsgi, Linux v144.home.net.pl 5.12.13 husak_new_cgroup+ #3 SMP Thu Jul 15 10:25:01 CEST 2021 x86_64) MySQL: 5.7.33-36 (max packet size=8388608) WPLANG: pl_PL Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 69.4M | 72M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.084 (0) Free space on disk containing Updraft's temporary directory: 44875.3 MB
+0000.111 (0) Deleting old log file: log.bafe1d359898.txt
+0000.129 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: daily)
+0000.132 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.136 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1632440883, seconds_ago=385993)
+0000.139 (0) Set semaphore last lock (f) time to 2021-09-28 11:01:16
+0000.140 (0) Semaphore lock (f) complete
+0000.144 (0) Backup run: resumption=0, nonce=e6392134545b, file_nonce=e6392134545b begun at=1632826876 (0s ago), job type=backup
+0000.146 (0) Scheduling a resumption (1) after 300 seconds (1632827176) in case this run gets aborted
+0000.179 (0) Checking if we have a zip executable available
+0000.180 (0) Testing: /usr/bin/zip
+0000.220 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.225 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.226 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.227 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.228 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.254 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.256 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.556 (0) Working binary zip found: /usr/bin/zip
+0000.558 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.559 (0) Creation of backups of directories: beginning
+0000.563 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0006.769 (0) Total entities for the zip file: 818 directories, 6005 files (0 skipped as non-modified), 86.5 MB
+0006.773 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0006.834 (0) backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: size is now: 0.20 MB
+0006.839 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 100 files added (on-disk size: 186.1 KB)
+0006.844 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 200 files added (on-disk size: 186.1 KB)
+0006.848 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 300 files added (on-disk size: 186.1 KB)
+0006.853 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 400 files added (on-disk size: 186.1 KB)
+0006.857 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 500 files added (on-disk size: 186.1 KB)
+0006.862 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 600 files added (on-disk size: 186.1 KB)
+0006.866 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 700 files added (on-disk size: 186.1 KB)
+0006.870 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 800 files added (on-disk size: 186.1 KB)
+0006.875 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 900 files added (on-disk size: 186.1 KB)
+0006.879 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 1000 files added (on-disk size: 186.1 KB)
+0006.881 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.6 MB, 6005 files batched, 1001 (1002) added so far); re-opening (prior size: 186.1 KB)
+0032.483 (0) backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: size is now: 4.00 MB
+0032.489 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 1100 files added (on-disk size: 4116 KB)
+0032.493 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 1200 files added (on-disk size: 4116 KB)
+0032.497 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 1300 files added (on-disk size: 4116 KB)
+0032.501 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 1400 files added (on-disk size: 4116 KB)
+0032.505 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 1500 files added (on-disk size: 4116 KB)
+0032.509 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 1600 files added (on-disk size: 4116 KB)
+0032.515 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 1700 files added (on-disk size: 4116 KB)
+0032.520 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 1800 files added (on-disk size: 4116 KB)
+0032.524 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 1900 files added (on-disk size: 4116 KB)
+0032.528 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 2000 files added (on-disk size: 4116 KB)
+0032.529 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.8 MB, 6005 files batched, 1001 (2003) added so far); re-opening (prior size: 4116 KB)
+0071.415 (0) backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: size is now: 9.80 MB
+0071.422 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 2100 files added (on-disk size: 10019.5 KB)
+0071.427 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 2200 files added (on-disk size: 10019.5 KB)
+0071.431 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 2300 files added (on-disk size: 10019.5 KB)
+0071.435 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 2400 files added (on-disk size: 10019.5 KB)
+0071.439 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 2500 files added (on-disk size: 10019.5 KB)
+0071.442 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 2600 files added (on-disk size: 10019.5 KB)
+0071.446 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 2700 files added (on-disk size: 10019.5 KB)
+0071.450 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 2800 files added (on-disk size: 10019.5 KB)
+0071.455 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 2900 files added (on-disk size: 10019.5 KB)
+0071.459 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 3000 files added (on-disk size: 10019.5 KB)
+0071.461 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.8 MB, 6005 files batched, 1001 (3004) added so far); re-opening (prior size: 10019.5 KB)
+0109.028 (0) backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: size is now: 13.00 MB
+0109.035 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 3100 files added (on-disk size: 13324.9 KB)
+0109.040 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 3200 files added (on-disk size: 13324.9 KB)
+0109.044 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 3300 files added (on-disk size: 13324.9 KB)
+0109.049 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 3400 files added (on-disk size: 13324.9 KB)
+0109.054 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 3500 files added (on-disk size: 13324.9 KB)
+0109.058 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 3600 files added (on-disk size: 13324.9 KB)
+0109.064 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 3700 files added (on-disk size: 13324.9 KB)
+0109.069 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 3800 files added (on-disk size: 13324.9 KB)
+0109.073 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 3900 files added (on-disk size: 13324.9 KB)
+0109.078 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 4000 files added (on-disk size: 13324.9 KB)
+0109.079 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.2 MB, 6005 files batched, 1001 (4005) added so far); re-opening (prior size: 13324.9 KB)
+0141.300 (0) backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: size is now: 16.70 MB
+0141.306 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 4100 files added (on-disk size: 17087.4 KB)
+0141.310 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 4200 files added (on-disk size: 17087.4 KB)
+0141.313 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 4300 files added (on-disk size: 17087.4 KB)
+0141.317 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 4400 files added (on-disk size: 17087.4 KB)
+0141.321 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 4500 files added (on-disk size: 17087.4 KB)
+0141.325 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 4600 files added (on-disk size: 17087.4 KB)
+0141.329 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 4700 files added (on-disk size: 17087.4 KB)
+0141.333 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 4800 files added (on-disk size: 17087.4 KB)
+0141.337 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 4900 files added (on-disk size: 17087.4 KB)
+0141.341 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 5000 files added (on-disk size: 17087.4 KB)
+0141.342 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.2 MB, 6005 files batched, 1001 (5006) added so far); re-opening (prior size: 17087.4 KB)
+0170.416 (0) backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: size is now: 26.00 MB
+0170.425 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 5100 files added (on-disk size: 26596.3 KB)
+0170.429 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 5200 files added (on-disk size: 26596.3 KB)
+0170.433 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 5300 files added (on-disk size: 26596.3 KB)
+0170.437 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 5400 files added (on-disk size: 26596.3 KB)
+0170.440 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 5500 files added (on-disk size: 26596.3 KB)
+0170.444 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 5600 files added (on-disk size: 26596.3 KB)
+0170.448 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 5700 files added (on-disk size: 26596.3 KB)
+0170.452 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 5800 files added (on-disk size: 26596.3 KB)
+0170.456 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 5900 files added (on-disk size: 26596.3 KB)
+0170.460 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip.tmp: 6000 files added (on-disk size: 26596.3 KB)
+0188.694 (0) Created plugins zip (0) - 28506.9 KB in 188.1 s (151.5 KB/s) (sha1: 2eaf225704eb4cf6df266a5e633505de93d46e4e, sha256: 7f6c836afcb75cdc6d164d8a3279d244204d3cec0a50bee2a36f5176f42db217)
+0188.700 (0) Beginning creation of dump of themes (split every: 400 MB)
+0190.696 (0) Total entities for the zip file: 405 directories, 2822 files (0 skipped as non-modified), 34 MB
+0190.701 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0190.705 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0190.710 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0190.714 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0190.718 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0190.722 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0190.726 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0190.730 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0190.734 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0190.738 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0190.739 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.5 MB, 2822 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0207.468 (0) backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: size is now: 5.50 MB
+0207.474 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 1100 files added (on-disk size: 5600.7 KB)
+0207.478 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 1200 files added (on-disk size: 5600.7 KB)
+0207.482 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 1300 files added (on-disk size: 5600.7 KB)
+0207.486 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 1400 files added (on-disk size: 5600.7 KB)
+0207.490 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 1500 files added (on-disk size: 5600.7 KB)
+0207.493 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 1600 files added (on-disk size: 5600.7 KB)
+0207.497 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 1700 files added (on-disk size: 5600.7 KB)
+0207.501 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 1800 files added (on-disk size: 5600.7 KB)
+0207.505 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 1900 files added (on-disk size: 5600.7 KB)
+0207.509 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 2000 files added (on-disk size: 5600.7 KB)
+0207.510 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (3.5 MB, 2822 files batched, 1001 (2002) added so far); re-opening (prior size: 5600.7 KB)
+0220.388 (0) backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: size is now: 7.30 MB
+0220.394 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 2100 files added (on-disk size: 7450.7 KB)
+0220.398 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 2200 files added (on-disk size: 7450.7 KB)
+0220.401 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 2300 files added (on-disk size: 7450.7 KB)
+0220.405 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 2400 files added (on-disk size: 7450.7 KB)
+0220.409 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 2500 files added (on-disk size: 7450.7 KB)
+0220.413 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 2600 files added (on-disk size: 7450.7 KB)
+0220.417 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 2700 files added (on-disk size: 7450.7 KB)
+0220.420 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: 2800 files added (on-disk size: 7450.7 KB)
+0237.458 (0) backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip.tmp: size is now: 14.30 MB
+0237.813 (0) Created themes zip (0) - 14636 KB in 49.1 s (298 KB/s) (sha1: 79f6d480fcf15185d4c7b4bc922527a2ba707ff7, sha256: ded773f26dd9b0535a4c2962d8bc20f5e082b25eaca94276837637ca1696c233)
+0237.818 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots,et_temp,tmp
+0237.819 (0) Looking for candidates to backup in: /www/goldenore/new_website/rtdwebinar2/wp-content/uploads
+0237.820 (0) finding files: 2017: adding to list (1)
+0237.821 (0) finding files: the7-css: adding to list (2)
+0237.823 (0) finding files: 2020: adding to list (3)
+0237.824 (0) finding files: wpcf7_uploads: adding to list (4)
+0237.825 (0) finding files: smile_fonts: adding to list (5)
+0237.826 (0) finding files: 2016: adding to list (6)
+0237.827 (0) finding files: 2015: adding to list (7)
+0237.828 (0) finding files: js_composer: adding to list (8)
+0237.828 (0) finding files: 2021: adding to list (9)
+0237.829 (0) finding files: revslider: adding to list (10)
+0237.830 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0238.162 (0) Total entities for the zip file: 27 directories, 240 files (0 skipped as non-modified), 67 MB
+0238.166 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.3 MB, 240 files batched, 66 (66) added so far); re-opening (prior size: 0 KB)
+0240.210 (0) backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-uploads.zip.tmp: size is now: 23.40 MB
+0240.214 (0) A useful amount of data was added after this amount of zip processing: 3.2 s (normalised: 3.2 s, rate: 8051.5 KB/s)
+0240.216 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.2219970226288, normalised_time=3.1795248035796, max_time=240.13620400429, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0240.219 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-uploads.zip.tmp: 100 files added (on-disk size: 24001.9 KB)
+0240.223 (0) Zip: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-uploads.zip.tmp: 200 files added (on-disk size: 24001.9 KB)
+0260.695 (0) backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-uploads.zip.tmp: size is now: 65.00 MB
+0260.698 (0) The scheduled resumption is within 45 seconds - will reschedule
+0260.701 (0) Rescheduling resumption 1: moving to 345 seconds from now (1632827481)
+0260.705 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0262.272 (0) Created uploads zip (0) - 66584.1 KB in 24.4 s (2724.6 KB/s) (sha1: c3a520a60b0f4fd02b215751d11f1a2d52806cf1, sha256: 34c727edb12e6b9ed9aa1261064b9911a50cc88470e14c3897235683f41a55a5)
+0262.278 (0) Beginning backup of other directories found in the content directory (index: 0)
+0262.279 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log,aiowps_backups,et-cache,uploads/et_temp,uploads/tmp
+0262.280 (0) Looking for candidates to backup in: /www/goldenore/new_website/rtdwebinar2/wp-content
+0262.281 (0) finding files: plugins: skipping: this is the plugins directory
+0262.282 (0) finding files: languages: adding to list (1)
+0262.282 (0) finding files: upgrade: skipping: excluded by options
+0262.283 (0) finding files: updraft: skipping: this is the updraft directory
+0262.284 (0) finding files: index.php: adding to list (2)
+0262.284 (0) finding files: backups-dup-lite: skipping: excluded by options (glob)
+0262.285 (0) finding files: uploads: skipping: this is the uploads directory
+0262.286 (0) finding files: themes: skipping: this is the themes directory
+0262.293 (0) Total entities for the zip file: 3 directories, 84 files (0 skipped as non-modified), 3.3 MB
+0265.832 (0) backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-others.zip.tmp: size is now: 1.00 MB
+0265.862 (0) Created others zip (0) - 1016.6 KB in 3.6 s (284.5 KB/s) (sha1: 208f5a850445a3ca5ee3d504373be73be012d169, sha256: 91d7468c79607ac544146688c0f466573668386679bca0ace7f2c38f3eaf5cb9)
+0265.868 (0) Saving backup status to database (elements: 8)
+0265.878 (0) No database backup (wp) - not part of this run
+0265.883 (0) backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0265.884 (0) backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0265.885 (0) backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0265.885 (0) backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-others.zip: others: This file has not yet been successfully uploaded: will queue
+0265.886 (0) Saving backup history. Total backup size: 108.1 MB
+0265.893 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0265.895 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0265.896 (0) No remote despatch: user chose no remote backup service
+0265.905 (0) Recording as successfully uploaded: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-plugins.zip
+0265.908 (0) Recording as successfully uploaded: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-themes.zip
+0265.911 (0) Recording as successfully uploaded: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-uploads.zip
+0265.913 (0) Recording as successfully uploaded: backup_2021-09-28-1301_Real_Time_Data_Webinar_e6392134545b-others.zip
+0265.917 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=13, retain_db=100
+0265.919 (0) Number of backup sets in history: 45; groups (db): 1
+0265.920 (0) Examining (for databases) backup set with group_id=0, nonce=e6392134545b, datestamp=1632826876 (Sep 28 2021 11:01:16)
+0265.921 (0) Examining (for databases) backup set with group_id=0, nonce=2b7c475a3081, datestamp=1632746921 (Sep 27 2021 12:48:41)
+0265.921 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.921 (0) Examining (for databases) backup set with group_id=0, nonce=90667cb3e364, datestamp=1632440883 (Sep 23 2021 23:48:03)
+0265.921 (0) Examining (for databases) backup set with group_id=0, nonce=ebb854b9358e, datestamp=1632440882 (Sep 23 2021 23:48:02)
+0265.921 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.922 (0) Examining (for databases) backup set with group_id=0, nonce=548ce2a44d05, datestamp=1632038695 (Sep 19 2021 08:04:55)
+0265.922 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.922 (0) Examining (for databases) backup set with group_id=0, nonce=e5e18b94c2cb, datestamp=1631861878 (Sep 17 2021 06:57:58)
+0265.922 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.922 (0) Examining (for databases) backup set with group_id=0, nonce=91aed9ddb38f, datestamp=1631687610 (Sep 15 2021 06:33:30)
+0265.922 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.922 (0) Examining (for databases) backup set with group_id=0, nonce=b086a6bdc189, datestamp=1631620936 (Sep 14 2021 12:02:16)
+0265.922 (0) Examining (for databases) backup set with group_id=0, nonce=9093b3341097, datestamp=1631620935 (Sep 14 2021 12:02:15)
+0265.922 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.922 (0) Examining (for databases) backup set with group_id=0, nonce=42c9e77c6836, datestamp=1631339997 (Sep 11 2021 05:59:57)
+0265.922 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.922 (0) Examining (for databases) backup set with group_id=0, nonce=8a220dd1254c, datestamp=1631285096 (Sep 10 2021 14:44:56)
+0265.923 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.923 (0) Examining (for databases) backup set with group_id=0, nonce=94e6e8e20d38, datestamp=1631198041 (Sep 09 2021 14:34:01)
+0265.923 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.923 (0) Examining (for databases) backup set with group_id=0, nonce=da21f3c0357d, datestamp=1631027671 (Sep 07 2021 15:14:31)
+0265.923 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.923 (0) Examining (for databases) backup set with group_id=0, nonce=8b54ebca90b2, datestamp=1631027501 (Sep 07 2021 15:11:41)
+0265.923 (0) Examining (for databases) backup set with group_id=0, nonce=3fee80aa3530, datestamp=1630967992 (Sep 06 2021 22:39:52)
+0265.923 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.923 (0) Examining (for databases) backup set with group_id=0, nonce=9d24cfbb0dde, datestamp=1630669385 (Sep 03 2021 11:43:05)
+0265.923 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.923 (0) Examining (for databases) backup set with group_id=0, nonce=2c9848b77f12, datestamp=1630569788 (Sep 02 2021 08:03:08)
+0265.923 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.924 (0) Examining (for databases) backup set with group_id=0, nonce=852e094dc850, datestamp=1630505982 (Sep 01 2021 14:19:42)
+0265.924 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.924 (0) Examining (for databases) backup set with group_id=0, nonce=33d3e6fc03df, datestamp=1630505856 (Sep 01 2021 14:17:36)
+0265.924 (0) Examining (for databases) backup set with group_id=0, nonce=d0ceea47a4e3, datestamp=1630361374 (Aug 30 2021 22:09:34)
+0265.924 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.924 (0) Examining (for databases) backup set with group_id=0, nonce=167801fb6e89, datestamp=1630056010 (Aug 27 2021 09:20:10)
+0265.924 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.924 (0) Examining (for databases) backup set with group_id=0, nonce=fab1078f74d3, datestamp=1629925680 (Aug 25 2021 21:08:00)
+0265.924 (0) Examining (for databases) backup set with group_id=0, nonce=0d423e5d5380, datestamp=1629925679 (Aug 25 2021 21:07:59)
+0265.924 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.924 (0) Examining (for databases) backup set with group_id=0, nonce=bafe1d359898, datestamp=1629293280 (Aug 18 2021 13:28:00)
+0265.924 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.924 (0) Examining (for databases) backup set with group_id=0, nonce=0c98f6dfbc04, datestamp=1629181424 (Aug 17 2021 06:23:44)
+0265.924 (0) Examining (for databases) backup set with group_id=0, nonce=0358ea338606, datestamp=1629181395 (Aug 17 2021 06:23:15)
+0265.924 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.925 (0) Examining (for databases) backup set with group_id=0, nonce=6b9d75d8f401, datestamp=1628726865 (Aug 12 2021 00:07:45)
+0265.925 (0) Examining (for databases) backup set with group_id=0, nonce=1db8968cd15d, datestamp=1628726864 (Aug 12 2021 00:07:44)
+0265.925 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.925 (0) Examining (for databases) backup set with group_id=0, nonce=20535ea16e6a, datestamp=1627721470 (Jul 31 2021 08:51:10)
+0265.925 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.925 (0) Examining (for databases) backup set with group_id=0, nonce=19336bc15c7b, datestamp=1627629971 (Jul 30 2021 07:26:11)
+0265.925 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.925 (0) Examining (for databases) backup set with group_id=0, nonce=c9ec883fae5a, datestamp=1627522987 (Jul 29 2021 01:43:07)
+0265.925 (0) Examining (for databases) backup set with group_id=0, nonce=42234b92c3ca, datestamp=1627522986 (Jul 29 2021 01:43:06)
+0265.925 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.925 (0) Examining (for databases) backup set with group_id=0, nonce=3509d2970363, datestamp=1627107453 (Jul 24 2021 06:17:33)
+0265.925 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.926 (0) Examining (for databases) backup set with group_id=0, nonce=b68df20aa244, datestamp=1626960155 (Jul 22 2021 13:22:35)
+0265.926 (0) Examining (for databases) backup set with group_id=0, nonce=513c81a3b772, datestamp=1626960153 (Jul 22 2021 13:22:33)
+0265.926 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.926 (0) Examining (for databases) backup set with group_id=0, nonce=622e74e3e335, datestamp=1626616641 (Jul 18 2021 13:57:21)
+0265.926 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.926 (0) Examining (for databases) backup set with group_id=0, nonce=c5b42383ed84, datestamp=1626447280 (Jul 16 2021 14:54:40)
+0265.926 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.926 (0) Examining (for databases) backup set with group_id=0, nonce=27653c29f2fe, datestamp=1626447158 (Jul 16 2021 14:52:38)
+0265.926 (0) Examining (for databases) backup set with group_id=0, nonce=c9a054dd3204, datestamp=1626084406 (Jul 12 2021 10:06:46)
+0265.926 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.926 (0) Examining (for databases) backup set with group_id=0, nonce=efab08751ddd, datestamp=1625840730 (Jul 09 2021 14:25:30)
+0265.926 (0) Examining (for databases) backup set with group_id=0, nonce=856f6a342881, datestamp=1625840729 (Jul 09 2021 14:25:29)
+0265.926 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.926 (0) Examining (for databases) backup set with group_id=0, nonce=62e426ac3f92, datestamp=1624803885 (Jun 27 2021 14:24:45)
+0265.926 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.927 (0) Examining (for databases) backup set with group_id=0, nonce=7792daa102cc, datestamp=1624369055 (Jun 22 2021 13:37:35)
+0265.927 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.927 (0) Examining (for databases) backup set with group_id=0, nonce=24d513116d43, datestamp=1624369006 (Jun 22 2021 13:36:46)
+0265.927 (0) Examining (for databases) backup set with group_id=0, nonce=1f8777c04004, datestamp=1624282922 (Jun 21 2021 13:42:02)
+0265.927 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0265.928 (0) Number of backup sets in history: 45; groups (files): 1
+0265.928 (0) Examining (for files) backup set with nonce=e6392134545b, datestamp=1632826876 (Sep 28 2021 11:01:16)
+0265.928 (0) This backup set is the backup set just made, so will not be deleted.
+0265.929 (0) This backup set is the backup set just made, so will not be deleted.
+0265.929 (0) This backup set is the backup set just made, so will not be deleted.
+0265.929 (0) This backup set is the backup set just made, so will not be deleted.
+0265.929 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0265.930 (0) Examining (for files) backup set with nonce=2b7c475a3081, datestamp=1632746921 (Sep 27 2021 12:48:41)
+0265.930 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.931 (0) Examining (for files) backup set with nonce=90667cb3e364, datestamp=1632440883 (Sep 23 2021 23:48:03)
+0265.931 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0265.931 (0) Examining (for files) backup set with nonce=ebb854b9358e, datestamp=1632440882 (Sep 23 2021 23:48:02)
+0265.931 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.932 (0) Examining (for files) backup set with nonce=548ce2a44d05, datestamp=1632038695 (Sep 19 2021 08:04:55)
+0265.932 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.932 (0) Examining (for files) backup set with nonce=e5e18b94c2cb, datestamp=1631861878 (Sep 17 2021 06:57:58)
+0265.932 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.932 (0) Examining (for files) backup set with nonce=91aed9ddb38f, datestamp=1631687610 (Sep 15 2021 06:33:30)
+0265.932 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.932 (0) Examining (for files) backup set with nonce=b086a6bdc189, datestamp=1631620936 (Sep 14 2021 12:02:16)
+0265.933 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0265.933 (0) Examining (for files) backup set with nonce=9093b3341097, datestamp=1631620935 (Sep 14 2021 12:02:15)
+0265.933 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.934 (0) Examining (for files) backup set with nonce=42c9e77c6836, datestamp=1631339997 (Sep 11 2021 05:59:57)
+0265.934 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.934 (0) Examining (for files) backup set with nonce=8a220dd1254c, datestamp=1631285096 (Sep 10 2021 14:44:56)
+0265.934 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.934 (0) Examining (for files) backup set with nonce=94e6e8e20d38, datestamp=1631198041 (Sep 09 2021 14:34:01)
+0265.934 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.934 (0) Examining (for files) backup set with nonce=da21f3c0357d, datestamp=1631027671 (Sep 07 2021 15:14:31)
+0265.934 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.934 (0) Examining (for files) backup set with nonce=8b54ebca90b2, datestamp=1631027501 (Sep 07 2021 15:11:41)
+0265.935 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0265.935 (0) Examining (for files) backup set with nonce=3fee80aa3530, datestamp=1630967992 (Sep 06 2021 22:39:52)
+0265.935 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.936 (0) Examining (for files) backup set with nonce=9d24cfbb0dde, datestamp=1630669385 (Sep 03 2021 11:43:05)
+0265.936 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.936 (0) Examining (for files) backup set with nonce=2c9848b77f12, datestamp=1630569788 (Sep 02 2021 08:03:08)
+0265.936 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.936 (0) Examining (for files) backup set with nonce=852e094dc850, datestamp=1630505982 (Sep 01 2021 14:19:42)
+0265.936 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.936 (0) Examining (for files) backup set with nonce=33d3e6fc03df, datestamp=1630505856 (Sep 01 2021 14:17:36)
+0265.936 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0265.937 (0) Examining (for files) backup set with nonce=d0ceea47a4e3, datestamp=1630361374 (Aug 30 2021 22:09:34)
+0265.937 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.938 (0) Examining (for files) backup set with nonce=167801fb6e89, datestamp=1630056010 (Aug 27 2021 09:20:10)
+0265.938 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.938 (0) Examining (for files) backup set with nonce=fab1078f74d3, datestamp=1629925680 (Aug 25 2021 21:08:00)
+0265.938 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0265.939 (0) Examining (for files) backup set with nonce=0d423e5d5380, datestamp=1629925679 (Aug 25 2021 21:07:59)
+0265.939 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.940 (0) Examining (for files) backup set with nonce=bafe1d359898, datestamp=1629293280 (Aug 18 2021 13:28:00)
+0265.940 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.940 (0) Examining (for files) backup set with nonce=0c98f6dfbc04, datestamp=1629181424 (Aug 17 2021 06:23:44)
+0265.940 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0265.940 (0) Examining (for files) backup set with nonce=0358ea338606, datestamp=1629181395 (Aug 17 2021 06:23:15)
+0265.940 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.941 (0) Examining (for files) backup set with nonce=6b9d75d8f401, datestamp=1628726865 (Aug 12 2021 00:07:45)
+0265.941 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0265.942 (0) Examining (for files) backup set with nonce=1db8968cd15d, datestamp=1628726864 (Aug 12 2021 00:07:44)
+0265.942 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.943 (0) Examining (for files) backup set with nonce=20535ea16e6a, datestamp=1627721470 (Jul 31 2021 08:51:10)
+0265.943 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.943 (0) Examining (for files) backup set with nonce=19336bc15c7b, datestamp=1627629971 (Jul 30 2021 07:26:11)
+0265.943 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.943 (0) Examining (for files) backup set with nonce=c9ec883fae5a, datestamp=1627522987 (Jul 29 2021 01:43:07)
+0265.943 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0265.944 (0) Examining (for files) backup set with nonce=42234b92c3ca, datestamp=1627522986 (Jul 29 2021 01:43:06)
+0265.944 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.945 (0) Examining (for files) backup set with nonce=3509d2970363, datestamp=1627107453 (Jul 24 2021 06:17:33)
+0265.945 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.945 (0) Examining (for files) backup set with nonce=b68df20aa244, datestamp=1626960155 (Jul 22 2021 13:22:35)
+0265.945 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0265.946 (0) Examining (for files) backup set with nonce=513c81a3b772, datestamp=1626960153 (Jul 22 2021 13:22:33)
+0265.946 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.947 (0) Examining (for files) backup set with nonce=622e74e3e335, datestamp=1626616641 (Jul 18 2021 13:57:21)
+0265.947 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.947 (0) Examining (for files) backup set with nonce=c5b42383ed84, datestamp=1626447280 (Jul 16 2021 14:54:40)
+0265.947 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.947 (0) Examining (for files) backup set with nonce=27653c29f2fe, datestamp=1626447158 (Jul 16 2021 14:52:38)
+0265.947 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0265.948 (0) Examining (for files) backup set with nonce=c9a054dd3204, datestamp=1626084406 (Jul 12 2021 10:06:46)
+0265.948 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.949 (0) Examining (for files) backup set with nonce=efab08751ddd, datestamp=1625840730 (Jul 09 2021 14:25:30)
+0265.949 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0265.949 (0) Examining (for files) backup set with nonce=856f6a342881, datestamp=1625840729 (Jul 09 2021 14:25:29)
+0265.949 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.950 (0) Examining (for files) backup set with nonce=62e426ac3f92, datestamp=1624803885 (Jun 27 2021 14:24:45)
+0265.950 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.950 (0) Examining (for files) backup set with nonce=7792daa102cc, datestamp=1624369055 (Jun 22 2021 13:37:35)
+0265.950 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0265.951 (0) Examining (for files) backup set with nonce=24d513116d43, datestamp=1624369006 (Jun 22 2021 13:36:46)
+0265.951 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0265.952 (0) Examining (for files) backup set with nonce=1f8777c04004, datestamp=1624282922 (Jun 21 2021 13:42:02)
+0265.952 (0) plugins: over retain limit (13); will delete this file entity
+0265.953 (0) themes: over retain limit (13); will delete this file entity
+0265.953 (0) uploads: over retain limit (13); will delete this file entity
+0265.953 (0) others: over retain limit (13); will delete this file entity
+0265.953 (0) Delete file: backup_2021-06-21-1542_Real_Time_Data_Webinar_1f8777c04004-plugins.zip, service=none
+0265.954 (0) Deleting local copy (backup_2021-06-21-1542_Real_Time_Data_Webinar_1f8777c04004-plugins.zip)
+0266.309 (0) Delete file: backup_2021-06-21-1542_Real_Time_Data_Webinar_1f8777c04004-themes.zip, service=none
+0266.310 (0) Deleting local copy (backup_2021-06-21-1542_Real_Time_Data_Webinar_1f8777c04004-themes.zip)
+0266.545 (0) Delete file: backup_2021-06-21-1542_Real_Time_Data_Webinar_1f8777c04004-uploads.zip, service=none
+0266.546 (0) Deleting local copy (backup_2021-06-21-1542_Real_Time_Data_Webinar_1f8777c04004-uploads.zip)
+0266.823 (0) Delete file: backup_2021-06-21-1542_Real_Time_Data_Webinar_1f8777c04004-others.zip, service=none
+0266.825 (0) Deleting local copy (backup_2021-06-21-1542_Real_Time_Data_Webinar_1f8777c04004-others.zip)
+0266.927 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0266.928 (0) Retain: saving new backup history (sets now: 45) and finishing retain operation
+0266.945 (0) Resume backup (e6392134545b, 0): finish run
+0266.947 (0) Decremented the semaphore (f) by 1
+0266.949 (0) Semaphore (f) unlocked
+0266.951 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0266.955 (0) The backup apparently succeeded and is now complete
+0266.956 (0) No email will/can be sent - the user has not configured an email address.
+0266.957 (0) Udało się wykonać i zakończyć tworzenie kopii

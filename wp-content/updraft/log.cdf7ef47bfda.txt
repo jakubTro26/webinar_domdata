@@ -1,0 +1,350 @@
+0000.000 (0) Opened log file at time: Wed, 29 Sep 2021 11:56:51 +0000 on http://pureconferences.pl/webinar-domdata
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.61 WP: 5.8.1 PHP: 7.2.27 (apache2handler, Linux itdb.biz 3.10.0 #1 SMP Tue Aug 25 11:59:26 MSK 2020 x86_64) MySQL: 10.3.22-MariaDB (max packet size=1048576) WPLANG: pl_PL Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips mod_fcgid/2.3.9 PHP/7.2.27 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 74.4M | 38.5M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 142819.7 MB
+0000.004 (0) Tasks: Backup files:  (schedule: weekly) Backup DB: 1 (schedule: daily)
+0000.005 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.007 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1632827142, seconds_ago=89469)
+0000.009 (0) Set semaphore last lock (d) time to 2021-09-29 11:56:51
+0000.009 (0) Semaphore lock (d) complete
+0000.012 (0) Backup run: resumption=0, nonce=cdf7ef47bfda, file_nonce=cdf7ef47bfda begun at=1632916611 (0s ago), job type=backup
+0000.013 (0) Scheduling a resumption (1) after 300 seconds (1632916911) in case this run gets aborted
+0000.025 (0) This backup run is not intended for files - skipping
+0000.026 (0) Beginning creation of database dump (WordPress DB)
+0000.027 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.028 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.044 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1558 bytes total)
+0000.045 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.051 (0) Table wp_options: Total expected rows (approximate): 310
+0000.080 (0) Table wp_options: Rows added in this batch (next record: 2401): 315 (uncompressed bytes in this segment=1275748) in 0.03 seconds
+0000.085 (0) Table wp_options: finishing file(s) (2, 122.8 KB)
+0000.087 (0) Table wp_users: Total expected rows (approximate): 0
+0000.089 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1420) in 0.00 seconds
+0000.091 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0000.093 (0) Table wp_usermeta: Total expected rows (approximate): 28
+0000.096 (0) Table wp_usermeta: Rows added in this batch (next record: 28): 28 (uncompressed bytes in this segment=4405) in 0.00 seconds
+0000.099 (0) Table wp_usermeta: finishing file(s) (2, 1.7 KB)
+0000.101 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0000.104 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=696) in 0.00 seconds
+0000.106 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.108 (0) Table wp_comments: Total expected rows (approximate): 0
+0000.110 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1697) in 0.00 seconds
+0000.112 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0000.113 (0) Table wp_links: Total expected rows (approximate): 0
+0000.115 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1306) in 0.00 seconds
+0000.117 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0000.118 (0) Table wp_postmeta: Total expected rows (approximate): 435
+0000.125 (0) Table wp_postmeta: Rows added in this batch (next record: 463): 435 (uncompressed bytes in this segment=170288) in 0.01 seconds
+0000.127 (0) Table wp_postmeta: finishing file(s) (2, 12 KB)
+0000.129 (0) Table wp_posts: Total expected rows (approximate): 91
+0000.147 (0) Table wp_posts: Rows added in this batch (next record: 991): 94 (uncompressed bytes in this segment=1072919) in 0.02 seconds
+0000.150 (0) Table wp_posts: finishing file(s) (2, 70.2 KB)
+0000.152 (0) Table wp_term_relationships: Total expected rows (approximate): 5
+0000.154 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 5 (uncompressed bytes in this segment=745) in 0.00 seconds
+0000.156 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0000.158 (0) Table wp_term_taxonomy: Total expected rows (approximate): 3
+0000.161 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=982) in 0.00 seconds
+0000.163 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0000.165 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0000.167 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=669) in 0.00 seconds
+0000.169 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0000.171 (0) Table wp_terms: Total expected rows (approximate): 3
+0000.173 (0) Table wp_terms: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=814) in 0.00 seconds
+0000.175 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0000.177 (0) Table wp_duplicator_packages: Total expected rows (approximate): 0
+0000.179 (0) Table wp_duplicator_packages: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=675) in 0.00 seconds
+0000.181 (0) Table wp_duplicator_packages: finishing file(s) (2, 0.4 KB)
+0000.183 (0) Table wp_eum_logs: Total expected rows (approximate): 156
+0000.244 (0) Table wp_eum_logs: Rows added in this batch (next record: 161): 161 (uncompressed bytes in this segment=6351480) in 0.06 seconds
+0000.247 (0) Table wp_eum_logs: finishing file(s) (2, 101.1 KB)
+0000.248 (0) Table wp_revslider_css: Total expected rows (approximate): 109
+0000.253 (0) Table wp_revslider_css: Rows added in this batch (next record: 109): 109 (uncompressed bytes in this segment=91107) in 0.00 seconds
+0000.255 (0) Table wp_revslider_css: finishing file(s) (2, 4.9 KB)
+0000.257 (0) Table wp_revslider_css_bkp: Total expected rows (approximate): 47
+0000.260 (0) Table wp_revslider_css_bkp: Rows added in this batch (next record: 47): 47 (uncompressed bytes in this segment=15399) in 0.00 seconds
+0000.263 (0) Table wp_revslider_css_bkp: finishing file(s) (2, 1.8 KB)
+0000.265 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0000.266 (0) Table wp_revslider_layer_animations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=553) in 0.00 seconds
+0000.269 (0) Table wp_revslider_layer_animations: finishing file(s) (2, 0.3 KB)
+0000.271 (0) Table wp_revslider_layer_animations_bkp: Total expected rows (approximate): 0
+0000.272 (0) Table wp_revslider_layer_animations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=577) in 0.00 seconds
+0000.274 (0) Table wp_revslider_layer_animations_bkp: finishing file(s) (2, 0.3 KB)
+0000.276 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0000.278 (0) Table wp_revslider_navigations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=630) in 0.00 seconds
+0000.281 (0) Table wp_revslider_navigations: finishing file(s) (2, 0.3 KB)
+0000.282 (0) Table wp_revslider_navigations_bkp: Total expected rows (approximate): 0
+0000.285 (0) Table wp_revslider_navigations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=654) in 0.00 seconds
+0000.287 (0) Table wp_revslider_navigations_bkp: finishing file(s) (2, 0.3 KB)
+0000.289 (0) Table wp_revslider_sliders: Total expected rows (approximate): 2
+0000.292 (0) Table wp_revslider_sliders: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=17978) in 0.00 seconds
+0000.294 (0) Table wp_revslider_sliders: finishing file(s) (2, 3.5 KB)
+0000.296 (0) Table wp_revslider_sliders_bkp: Total expected rows (approximate): 0
+0000.298 (0) Table wp_revslider_sliders_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=606) in 0.00 seconds
+0000.301 (0) Table wp_revslider_sliders_bkp: finishing file(s) (2, 0.3 KB)
+0000.302 (0) Table wp_revslider_slides: Total expected rows (approximate): 5
+0000.306 (0) Table wp_revslider_slides: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=145740) in 0.00 seconds
+0000.309 (0) Table wp_revslider_slides: finishing file(s) (2, 10.9 KB)
+0000.311 (0) Table wp_revslider_slides_bkp: Total expected rows (approximate): 0
+0000.313 (0) Table wp_revslider_slides_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=586) in 0.00 seconds
+0000.315 (0) Table wp_revslider_slides_bkp: finishing file(s) (2, 0.3 KB)
+0000.317 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 2
+0000.319 (0) Table wp_revslider_static_slides: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=929) in 0.00 seconds
+0000.322 (0) Table wp_revslider_static_slides: finishing file(s) (2, 0.5 KB)
+0000.324 (0) Table wp_revslider_static_slides_bkp: Total expected rows (approximate): 0
+0000.326 (0) Table wp_revslider_static_slides_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=594) in 0.00 seconds
+0000.328 (0) Table wp_revslider_static_slides_bkp: finishing file(s) (2, 0.3 KB)
+0000.330 (0) Table wp_simple_history: Total expected rows (approximate): 132
+0000.332 (0) Table wp_simple_history: Rows added in this batch (next record: 221): 133 (uncompressed bytes in this segment=21465) in 0.00 seconds
+0000.334 (0) Table wp_simple_history: finishing file(s) (2, 2.7 KB)
+0000.335 (0) Table wp_simple_history_contexts: Total expected rows (approximate): 1197
+0000.344 (0) Table wp_simple_history_contexts: Rows added in this batch (next record: 2167): 1204 (uncompressed bytes in this segment=86894) in 0.01 seconds
+0000.347 (0) Table wp_simple_history_contexts: finishing file(s) (2, 11.2 KB)
+0000.348 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_options.table.tmpr2402.gz (1/28/fopen): adding to final database dump
+0000.350 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_options.table.gz (2/28/fopen): adding to final database dump
+0000.351 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_users.table.tmpr2.gz (3/28/fopen): adding to final database dump
+0000.352 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_users.table.gz (4/28/fopen): adding to final database dump
+0000.352 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_usermeta.table.tmpr29.gz (5/28/fopen): adding to final database dump
+0000.353 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_usermeta.table.gz (6/28/fopen): adding to final database dump
+0000.354 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_commentmeta.table.tmpr0.gz (7/28/fopen): adding to final database dump
+0000.354 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_commentmeta.table.gz (8/28/fopen): adding to final database dump
+0000.355 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_comments.table.tmpr0.gz (9/28/fopen): adding to final database dump
+0000.355 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_comments.table.gz (10/28/fopen): adding to final database dump
+0000.356 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_links.table.tmpr0.gz (11/28/fopen): adding to final database dump
+0000.357 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_links.table.gz (12/28/fopen): adding to final database dump
+0000.357 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_postmeta.table.tmpr464.gz (13/28/fopen): adding to final database dump
+0000.358 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_postmeta.table.gz (14/28/fopen): adding to final database dump
+0000.358 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_posts.table.tmpr992.gz (15/28/fopen): adding to final database dump
+0000.360 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_posts.table.gz (16/28/fopen): adding to final database dump
+0000.360 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_term_relationships.table.tmpr100001.gz (17/28/fopen): adding to final database dump
+0000.361 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_term_relationships.table.gz (18/28/fopen): adding to final database dump
+0000.362 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_term_taxonomy.table.tmpr4.gz (19/28/fopen): adding to final database dump
+0000.362 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_term_taxonomy.table.gz (20/28/fopen): adding to final database dump
+0000.363 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_termmeta.table.tmpr0.gz (21/28/fopen): adding to final database dump
+0000.363 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_termmeta.table.gz (22/28/fopen): adding to final database dump
+0000.364 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_terms.table.tmpr4.gz (23/28/fopen): adding to final database dump
+0000.364 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_terms.table.gz (24/28/fopen): adding to final database dump
+0000.365 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_duplicator_packages.table.tmpr0.gz (25/28/fopen): adding to final database dump
+0000.366 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_duplicator_packages.table.gz (26/28/fopen): adding to final database dump
+0000.366 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_eum_logs.table.tmpr162.gz (27/28/fopen): adding to final database dump
+0000.368 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_eum_logs.table.gz (28/28/fopen): adding to final database dump
+0000.369 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_css.table.tmpr110.gz (29/28/fopen): adding to final database dump
+0000.369 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_css.table.gz (30/28/fopen): adding to final database dump
+0000.370 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_css_bkp.table.tmpr48.gz (31/28/fopen): adding to final database dump
+0000.371 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_css_bkp.table.gz (32/28/fopen): adding to final database dump
+0000.371 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_layer_animations.table.tmpr0.gz (33/28/fopen): adding to final database dump
+0000.372 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_layer_animations.table.gz (34/28/fopen): adding to final database dump
+0000.372 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_layer_animations_bkp.table.tmpr0.gz (35/28/fopen): adding to final database dump
+0000.373 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_layer_animations_bkp.table.gz (36/28/fopen): adding to final database dump
+0000.374 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_navigations.table.tmpr0.gz (37/28/fopen): adding to final database dump
+0000.374 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_navigations.table.gz (38/28/fopen): adding to final database dump
+0000.375 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_navigations_bkp.table.tmpr0.gz (39/28/fopen): adding to final database dump
+0000.375 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_navigations_bkp.table.gz (40/28/fopen): adding to final database dump
+0000.376 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_sliders.table.tmpr3.gz (41/28/fopen): adding to final database dump
+0000.377 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_sliders.table.gz (42/28/fopen): adding to final database dump
+0000.377 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_sliders_bkp.table.tmpr0.gz (43/28/fopen): adding to final database dump
+0000.378 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_sliders_bkp.table.gz (44/28/fopen): adding to final database dump
+0000.378 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_slides.table.tmpr6.gz (45/28/fopen): adding to final database dump
+0000.379 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_slides.table.gz (46/28/fopen): adding to final database dump
+0000.380 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_slides_bkp.table.tmpr0.gz (47/28/fopen): adding to final database dump
+0000.380 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_slides_bkp.table.gz (48/28/fopen): adding to final database dump
+0000.381 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_static_slides.table.tmpr3.gz (49/28/fopen): adding to final database dump
+0000.381 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_static_slides.table.gz (50/28/fopen): adding to final database dump
+0000.382 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_static_slides_bkp.table.tmpr0.gz (51/28/fopen): adding to final database dump
+0000.382 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_revslider_static_slides_bkp.table.gz (52/28/fopen): adding to final database dump
+0000.383 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_simple_history.table.tmpr222.gz (53/28/fopen): adding to final database dump
+0000.383 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_simple_history.table.gz (54/28/fopen): adding to final database dump
+0000.384 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_simple_history_contexts.table.tmpr2168.gz (55/28/fopen): adding to final database dump
+0000.385 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db-table-wp_simple_history_contexts.table.gz (56/28/fopen): adding to final database dump
+0000.387 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db.gz: finished writing out complete database file (350.3 KB)
+0000.394 (0) Total database tables backed up: 28 (backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db.gz, size: 358784, sha1: 53ed573b1890495cc3c0aff547b20191146789c1, sha256: 5d2501e830d71d3d7bb146fee547f35c10672836b777019d47cd4bb6002e6072)
+0000.401 (0) backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db.gz: db: This file has not yet been successfully uploaded: will queue
+0000.402 (0) Saving backup history. Total backup size: 350.4 KB
+0000.405 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0000.407 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0000.407 (0) No remote despatch: user chose no remote backup service
+0000.408 (0) Recording as successfully uploaded: backup_2021-09-29-1356_Domdata_Webinar_cdf7ef47bfda-db.gz
+0000.410 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=13, retain_db=100
+0000.411 (0) Number of backup sets in history: 47; groups (db): 1
+0000.411 (0) Examining (for databases) backup set with group_id=0, nonce=cdf7ef47bfda, datestamp=1632916611 (Sep 29 2021 11:56:51)
+0000.412 (0) This backup set is the backup set just made, so will not be deleted.
+0000.412 (0) Examining (for databases) backup set with group_id=0, nonce=329b50f43a4d, datestamp=1632827142 (Sep 28 2021 11:05:42)
+0000.412 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.412 (0) Examining (for databases) backup set with group_id=0, nonce=e6392134545b, datestamp=1632826876 (Sep 28 2021 11:01:16)
+0000.412 (0) Examining (for databases) backup set with group_id=0, nonce=2b7c475a3081, datestamp=1632746921 (Sep 27 2021 12:48:41)
+0000.412 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.412 (0) Examining (for databases) backup set with group_id=0, nonce=90667cb3e364, datestamp=1632440883 (Sep 23 2021 23:48:03)
+0000.412 (0) Examining (for databases) backup set with group_id=0, nonce=ebb854b9358e, datestamp=1632440882 (Sep 23 2021 23:48:02)
+0000.412 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.412 (0) Examining (for databases) backup set with group_id=0, nonce=548ce2a44d05, datestamp=1632038695 (Sep 19 2021 08:04:55)
+0000.412 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.413 (0) Examining (for databases) backup set with group_id=0, nonce=e5e18b94c2cb, datestamp=1631861878 (Sep 17 2021 06:57:58)
+0000.413 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.413 (0) Examining (for databases) backup set with group_id=0, nonce=91aed9ddb38f, datestamp=1631687610 (Sep 15 2021 06:33:30)
+0000.413 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.413 (0) Examining (for databases) backup set with group_id=0, nonce=b086a6bdc189, datestamp=1631620936 (Sep 14 2021 12:02:16)
+0000.413 (0) Examining (for databases) backup set with group_id=0, nonce=9093b3341097, datestamp=1631620935 (Sep 14 2021 12:02:15)
+0000.413 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.413 (0) Examining (for databases) backup set with group_id=0, nonce=42c9e77c6836, datestamp=1631339997 (Sep 11 2021 05:59:57)
+0000.413 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.413 (0) Examining (for databases) backup set with group_id=0, nonce=8a220dd1254c, datestamp=1631285096 (Sep 10 2021 14:44:56)
+0000.413 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.413 (0) Examining (for databases) backup set with group_id=0, nonce=94e6e8e20d38, datestamp=1631198041 (Sep 09 2021 14:34:01)
+0000.413 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.413 (0) Examining (for databases) backup set with group_id=0, nonce=da21f3c0357d, datestamp=1631027671 (Sep 07 2021 15:14:31)
+0000.413 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.413 (0) Examining (for databases) backup set with group_id=0, nonce=8b54ebca90b2, datestamp=1631027501 (Sep 07 2021 15:11:41)
+0000.413 (0) Examining (for databases) backup set with group_id=0, nonce=3fee80aa3530, datestamp=1630967992 (Sep 06 2021 22:39:52)
+0000.413 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.413 (0) Examining (for databases) backup set with group_id=0, nonce=9d24cfbb0dde, datestamp=1630669385 (Sep 03 2021 11:43:05)
+0000.413 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.413 (0) Examining (for databases) backup set with group_id=0, nonce=2c9848b77f12, datestamp=1630569788 (Sep 02 2021 08:03:08)
+0000.413 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.414 (0) Examining (for databases) backup set with group_id=0, nonce=852e094dc850, datestamp=1630505982 (Sep 01 2021 14:19:42)
+0000.414 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.414 (0) Examining (for databases) backup set with group_id=0, nonce=33d3e6fc03df, datestamp=1630505856 (Sep 01 2021 14:17:36)
+0000.414 (0) Examining (for databases) backup set with group_id=0, nonce=d0ceea47a4e3, datestamp=1630361374 (Aug 30 2021 22:09:34)
+0000.414 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.414 (0) Examining (for databases) backup set with group_id=0, nonce=167801fb6e89, datestamp=1630056010 (Aug 27 2021 09:20:10)
+0000.414 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.414 (0) Examining (for databases) backup set with group_id=0, nonce=fab1078f74d3, datestamp=1629925680 (Aug 25 2021 21:08:00)
+0000.414 (0) Examining (for databases) backup set with group_id=0, nonce=0d423e5d5380, datestamp=1629925679 (Aug 25 2021 21:07:59)
+0000.414 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.414 (0) Examining (for databases) backup set with group_id=0, nonce=bafe1d359898, datestamp=1629293280 (Aug 18 2021 13:28:00)
+0000.414 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.414 (0) Examining (for databases) backup set with group_id=0, nonce=0c98f6dfbc04, datestamp=1629181424 (Aug 17 2021 06:23:44)
+0000.414 (0) Examining (for databases) backup set with group_id=0, nonce=0358ea338606, datestamp=1629181395 (Aug 17 2021 06:23:15)
+0000.414 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.414 (0) Examining (for databases) backup set with group_id=0, nonce=6b9d75d8f401, datestamp=1628726865 (Aug 12 2021 00:07:45)
+0000.414 (0) Examining (for databases) backup set with group_id=0, nonce=1db8968cd15d, datestamp=1628726864 (Aug 12 2021 00:07:44)
+0000.414 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.414 (0) Examining (for databases) backup set with group_id=0, nonce=20535ea16e6a, datestamp=1627721470 (Jul 31 2021 08:51:10)
+0000.414 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.414 (0) Examining (for databases) backup set with group_id=0, nonce=19336bc15c7b, datestamp=1627629971 (Jul 30 2021 07:26:11)
+0000.414 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.414 (0) Examining (for databases) backup set with group_id=0, nonce=c9ec883fae5a, datestamp=1627522987 (Jul 29 2021 01:43:07)
+0000.414 (0) Examining (for databases) backup set with group_id=0, nonce=42234b92c3ca, datestamp=1627522986 (Jul 29 2021 01:43:06)
+0000.414 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.415 (0) Examining (for databases) backup set with group_id=0, nonce=3509d2970363, datestamp=1627107453 (Jul 24 2021 06:17:33)
+0000.415 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.415 (0) Examining (for databases) backup set with group_id=0, nonce=b68df20aa244, datestamp=1626960155 (Jul 22 2021 13:22:35)
+0000.415 (0) Examining (for databases) backup set with group_id=0, nonce=513c81a3b772, datestamp=1626960153 (Jul 22 2021 13:22:33)
+0000.415 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.415 (0) Examining (for databases) backup set with group_id=0, nonce=622e74e3e335, datestamp=1626616641 (Jul 18 2021 13:57:21)
+0000.415 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.415 (0) Examining (for databases) backup set with group_id=0, nonce=c5b42383ed84, datestamp=1626447280 (Jul 16 2021 14:54:40)
+0000.415 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.415 (0) Examining (for databases) backup set with group_id=0, nonce=27653c29f2fe, datestamp=1626447158 (Jul 16 2021 14:52:38)
+0000.415 (0) Examining (for databases) backup set with group_id=0, nonce=c9a054dd3204, datestamp=1626084406 (Jul 12 2021 10:06:46)
+0000.415 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.415 (0) Examining (for databases) backup set with group_id=0, nonce=efab08751ddd, datestamp=1625840730 (Jul 09 2021 14:25:30)
+0000.415 (0) Examining (for databases) backup set with group_id=0, nonce=856f6a342881, datestamp=1625840729 (Jul 09 2021 14:25:29)
+0000.415 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.415 (0) Examining (for databases) backup set with group_id=0, nonce=62e426ac3f92, datestamp=1624803885 (Jun 27 2021 14:24:45)
+0000.415 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.415 (0) Examining (for databases) backup set with group_id=0, nonce=7792daa102cc, datestamp=1624369055 (Jun 22 2021 13:37:35)
+0000.415 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.415 (0) Examining (for databases) backup set with group_id=0, nonce=24d513116d43, datestamp=1624369006 (Jun 22 2021 13:36:46)
+0000.415 (0) Examining (for databases) backup set with group_id=0, nonce=1f8777c04004, datestamp=1624282922 (Jun 21 2021 13:42:02)
+0000.415 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.415 (0) Number of backup sets in history: 47; groups (files): 1
+0000.416 (0) Examining (for files) backup set with nonce=cdf7ef47bfda, datestamp=1632916611 (Sep 29 2021 11:56:51)
+0000.416 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.417 (0) Examining (for files) backup set with nonce=329b50f43a4d, datestamp=1632827142 (Sep 28 2021 11:05:42)
+0000.417 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.417 (0) Examining (for files) backup set with nonce=e6392134545b, datestamp=1632826876 (Sep 28 2021 11:01:16)
+0000.417 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0000.417 (0) Examining (for files) backup set with nonce=2b7c475a3081, datestamp=1632746921 (Sep 27 2021 12:48:41)
+0000.418 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.418 (0) Examining (for files) backup set with nonce=90667cb3e364, datestamp=1632440883 (Sep 23 2021 23:48:03)
+0000.418 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0000.419 (0) Examining (for files) backup set with nonce=ebb854b9358e, datestamp=1632440882 (Sep 23 2021 23:48:02)
+0000.419 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.419 (0) Examining (for files) backup set with nonce=548ce2a44d05, datestamp=1632038695 (Sep 19 2021 08:04:55)
+0000.419 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.419 (0) Examining (for files) backup set with nonce=e5e18b94c2cb, datestamp=1631861878 (Sep 17 2021 06:57:58)
+0000.419 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.419 (0) Examining (for files) backup set with nonce=91aed9ddb38f, datestamp=1631687610 (Sep 15 2021 06:33:30)
+0000.419 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.419 (0) Examining (for files) backup set with nonce=b086a6bdc189, datestamp=1631620936 (Sep 14 2021 12:02:16)
+0000.419 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0000.420 (0) Examining (for files) backup set with nonce=9093b3341097, datestamp=1631620935 (Sep 14 2021 12:02:15)
+0000.420 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.421 (0) Examining (for files) backup set with nonce=42c9e77c6836, datestamp=1631339997 (Sep 11 2021 05:59:57)
+0000.421 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.421 (0) Examining (for files) backup set with nonce=8a220dd1254c, datestamp=1631285096 (Sep 10 2021 14:44:56)
+0000.421 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.421 (0) Examining (for files) backup set with nonce=94e6e8e20d38, datestamp=1631198041 (Sep 09 2021 14:34:01)
+0000.421 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.421 (0) Examining (for files) backup set with nonce=da21f3c0357d, datestamp=1631027671 (Sep 07 2021 15:14:31)
+0000.421 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.421 (0) Examining (for files) backup set with nonce=8b54ebca90b2, datestamp=1631027501 (Sep 07 2021 15:11:41)
+0000.421 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0000.422 (0) Examining (for files) backup set with nonce=3fee80aa3530, datestamp=1630967992 (Sep 06 2021 22:39:52)
+0000.422 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.422 (0) Examining (for files) backup set with nonce=9d24cfbb0dde, datestamp=1630669385 (Sep 03 2021 11:43:05)
+0000.422 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.422 (0) Examining (for files) backup set with nonce=2c9848b77f12, datestamp=1630569788 (Sep 02 2021 08:03:08)
+0000.422 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.422 (0) Examining (for files) backup set with nonce=852e094dc850, datestamp=1630505982 (Sep 01 2021 14:19:42)
+0000.422 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.422 (0) Examining (for files) backup set with nonce=33d3e6fc03df, datestamp=1630505856 (Sep 01 2021 14:17:36)
+0000.422 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0000.423 (0) Examining (for files) backup set with nonce=d0ceea47a4e3, datestamp=1630361374 (Aug 30 2021 22:09:34)
+0000.423 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.424 (0) Examining (for files) backup set with nonce=167801fb6e89, datestamp=1630056010 (Aug 27 2021 09:20:10)
+0000.424 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.424 (0) Examining (for files) backup set with nonce=fab1078f74d3, datestamp=1629925680 (Aug 25 2021 21:08:00)
+0000.424 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0000.424 (0) Examining (for files) backup set with nonce=0d423e5d5380, datestamp=1629925679 (Aug 25 2021 21:07:59)
+0000.424 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.425 (0) Examining (for files) backup set with nonce=bafe1d359898, datestamp=1629293280 (Aug 18 2021 13:28:00)
+0000.425 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.425 (0) Examining (for files) backup set with nonce=0c98f6dfbc04, datestamp=1629181424 (Aug 17 2021 06:23:44)
+0000.425 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0000.426 (0) Examining (for files) backup set with nonce=0358ea338606, datestamp=1629181395 (Aug 17 2021 06:23:15)
+0000.426 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.426 (0) Examining (for files) backup set with nonce=6b9d75d8f401, datestamp=1628726865 (Aug 12 2021 00:07:45)
+0000.426 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0000.427 (0) Examining (for files) backup set with nonce=1db8968cd15d, datestamp=1628726864 (Aug 12 2021 00:07:44)
+0000.427 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.427 (0) Examining (for files) backup set with nonce=20535ea16e6a, datestamp=1627721470 (Jul 31 2021 08:51:10)
+0000.427 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.427 (0) Examining (for files) backup set with nonce=19336bc15c7b, datestamp=1627629971 (Jul 30 2021 07:26:11)
+0000.427 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.427 (0) Examining (for files) backup set with nonce=c9ec883fae5a, datestamp=1627522987 (Jul 29 2021 01:43:07)
+0000.427 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0000.428 (0) Examining (for files) backup set with nonce=42234b92c3ca, datestamp=1627522986 (Jul 29 2021 01:43:06)
+0000.428 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.429 (0) Examining (for files) backup set with nonce=3509d2970363, datestamp=1627107453 (Jul 24 2021 06:17:33)
+0000.429 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.429 (0) Examining (for files) backup set with nonce=b68df20aa244, datestamp=1626960155 (Jul 22 2021 13:22:35)
+0000.429 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0000.429 (0) Examining (for files) backup set with nonce=513c81a3b772, datestamp=1626960153 (Jul 22 2021 13:22:33)
+0000.429 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.430 (0) Examining (for files) backup set with nonce=622e74e3e335, datestamp=1626616641 (Jul 18 2021 13:57:21)
+0000.430 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.430 (0) Examining (for files) backup set with nonce=c5b42383ed84, datestamp=1626447280 (Jul 16 2021 14:54:40)
+0000.430 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.430 (0) Examining (for files) backup set with nonce=27653c29f2fe, datestamp=1626447158 (Jul 16 2021 14:52:38)
+0000.430 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0000.430 (0) Examining (for files) backup set with nonce=c9a054dd3204, datestamp=1626084406 (Jul 12 2021 10:06:46)
+0000.430 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.431 (0) Examining (for files) backup set with nonce=efab08751ddd, datestamp=1625840730 (Jul 09 2021 14:25:30)
+0000.431 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0000.431 (0) Examining (for files) backup set with nonce=856f6a342881, datestamp=1625840729 (Jul 09 2021 14:25:29)
+0000.431 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.432 (0) Examining (for files) backup set with nonce=62e426ac3f92, datestamp=1624803885 (Jun 27 2021 14:24:45)
+0000.432 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.432 (0) Examining (for files) backup set with nonce=7792daa102cc, datestamp=1624369055 (Jun 22 2021 13:37:35)
+0000.432 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.432 (0) Examining (for files) backup set with nonce=24d513116d43, datestamp=1624369006 (Jun 22 2021 13:36:46)
+0000.432 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0000.433 (0) Examining (for files) backup set with nonce=1f8777c04004, datestamp=1624282922 (Jun 21 2021 13:42:02)
+0000.433 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.433 (0) Retain: saving new backup history (sets now: 47) and finishing retain operation
+0000.435 (0) Resume backup (cdf7ef47bfda, 0): finish run
+0000.436 (0) Decremented the semaphore (d) by 1
+0000.437 (0) Semaphore (d) unlocked
+0000.438 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0000.440 (0) The backup apparently succeeded and is now complete
+0000.440 (0) No email will/can be sent - the user has not configured an email address.
+0000.441 (0) Udało się wykonać i zakończyć tworzenie kopii

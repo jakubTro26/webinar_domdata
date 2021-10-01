@@ -1,0 +1,18 @@
+#This Apache config file was created by Duplicator Installer on 2021-01-05 15:23:38.
+#The original can be found in archived file with the name .htaccess__[HASH]
+
+# BEGIN WordPress
+# Dyrektywy zawarte między "BEGIN WordPress" oraz "END WordPress"
+# są generowane dynamicznie i powinny być modyfikowane tylko za pomocą
+# filtrów WordPressa. Zmiany dokonane bezpośrednio tutaj będą nadpisywane.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /rtdwebinar2/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /rtdwebinar2/index.php [L]
+</IfModule>
+
+# END WordPress
