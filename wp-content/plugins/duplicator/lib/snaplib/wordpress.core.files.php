@@ -2080,7 +2080,7 @@ self::$corePathList = array(
             'customize-controls.min.css'      => array(),
             'site-health-rtl.css'             => array(),
             'site-health-rtl.min.css'         => array(),
-            'media.css'                       => array(),
+           
             'code-editor.min.css'             => array(),
             'deprecated-media-rtl.min.css'    => array(),
             'farbtastic-rtl.min.css'          => array(),
