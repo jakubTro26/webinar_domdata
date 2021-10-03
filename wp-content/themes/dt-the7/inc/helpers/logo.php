@@ -432,6 +432,8 @@ if ( ! function_exists( 'presscore_display_the_logo' ) ) :
 			return;
 		}
 
+		var_dump($logo);
+
 		$url = presscore_get_logo_url();
 		echo '<a class="' . esc_attr( $class ) . '" href="' . esc_url( $url ) . '">' . $logo . '</a>';
 	}
