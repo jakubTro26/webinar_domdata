@@ -24,17 +24,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 	 height="30" sizes="250px" alt="Domdata Webinar">';
 
 	// Do not display mobile logo on mixed headers.
-	if ( ! presscore_header_layout_is_mixed() ) {
-		//$logo .= presscore_get_the_mobile_logo();
-	}
+	// if ( ! presscore_header_layout_is_mixed() ) {
+	// 	$logo .= presscore_get_the_mobile_logo();
+	// }
 
-	$config                     = presscore_config();
-	$main_logo_class            = '';
-	$show_main_transparent_logo = 'main' === $config->get( 'logo.header.transparent.style' );
-	$show_main_floating_logo    = 'main' === $config->get( 'header.floating_navigation.logo.style' );
-	if ( $show_main_floating_logo && ( ! presscore_header_is_transparent() || $show_main_transparent_logo ) ) {
-		$main_logo_class = 'same-logo';
-	}
+	// $config                     = presscore_config();
+	// $main_logo_class            = '';
+	// $show_main_transparent_logo = 'main' === $config->get( 'logo.header.transparent.style' );
+	// $show_main_floating_logo    = 'main' === $config->get( 'header.floating_navigation.logo.style' );
+	// if ( $show_main_floating_logo && ( ! presscore_header_is_transparent() || $show_main_transparent_logo ) ) {
+	// 	$main_logo_class = 'same-logo';
+	// }
 	presscore_display_the_logo( $logo, $main_logo_class );
 
 	presscore_render_header_elements( 'near_logo_left' );
