@@ -35,7 +35,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	if ( $show_main_floating_logo && ( ! presscore_header_is_transparent() || $show_main_transparent_logo ) ) {
 		$main_logo_class = 'same-logo';
 	}
-	presscore_display_the_logo( $logo, $main_logo_class );
+	//presscore_display_the_logo( $logo, $main_logo_class );
 
 	presscore_render_header_elements( 'near_logo_left' );
 	presscore_render_header_elements( 'near_logo_right' );
